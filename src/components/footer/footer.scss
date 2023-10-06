@@ -1,0 +1,51 @@
+@import "../../variables.scss";
+
+.footer-box {
+  padding: 6rem 0;
+  background-color: #0f0f0f;
+  color: #c0c0c0;
+  .logo {
+    img {
+      height: 5rem;
+    }
+  }
+  p {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    vertical-align: baseline;
+  }
+  .social-icon {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    background-color: rgba(white, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: $transition_0-3;
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+    &:hover {
+      background-color: rgba(white, 0.1);
+      svg {
+        color: blue;
+      }
+    }
+    svg {
+      transition: $transition_0-3;
+      font-size: 1.6rem;
+      color: #c0c0c0;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo,
+  p {
+    text-align: center;
+  }
+  .social {
+    justify-content: center;
+  }
+}

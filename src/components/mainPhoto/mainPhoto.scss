@@ -1,0 +1,44 @@
+@import "../../variables.scss";
+.main-image {
+  position: relative;
+  overflow: hidden;
+  img {
+    cursor: pointer;
+    width: 100%;
+    filter: brightness(0.5);
+
+    transition: $transition_0-3;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .info {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    .info-title {
+      padding: 0.5rem;
+      background-color: #008ccc;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+    }
+    .info-text {
+      width: 70%;
+      font-size: 3rem;
+      color: $color-white;
+      font-weight: bold;
+      text-align: start;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-image {
+    .info {
+      .info-text {
+        width: 100%;
+        font-size: 2rem;
+      }
+    }
+  }
+}
