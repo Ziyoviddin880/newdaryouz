@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/newdaryouz/static/css/main.073c9b0a.css",
+    "main.js": "/newdaryouz/static/js/main.a4258dd6.js",
+    "static/js/787.df882056.chunk.js": "/newdaryouz/static/js/787.df882056.chunk.js",
+    "static/media/logo.svg": "/newdaryouz/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/newdaryouz/index.html",
+    "main.073c9b0a.css.map": "/newdaryouz/static/css/main.073c9b0a.css.map",
+    "main.a4258dd6.js.map": "/newdaryouz/static/js/main.a4258dd6.js.map",
+    "787.df882056.chunk.js.map": "/newdaryouz/static/js/787.df882056.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a4258dd6.js"
+  ]
+}
